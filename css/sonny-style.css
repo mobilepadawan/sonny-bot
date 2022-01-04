@@ -14,6 +14,14 @@ main {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    background-color: black;
+}
+
+footer {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    float: left;
 }
 
 .user-font {
