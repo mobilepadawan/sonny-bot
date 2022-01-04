@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 
-/* https://fonts.google.com/icons */
-
-
-
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -22,3 +18,32 @@ body {
     font-style: italic;
 }
 
+.main-div {
+    height: 70%;
+	width: 100%;
+	border: 1px solid gray;
+	background: grey;
+	overflow-y: scroll;
+}
+
+.mensajes {
+    height: auto;
+}
+
+.texto-bot {
+    margin: 20px;
+    padding: 14px;
+    border-radius: 9px 9px 9px 0px;
+    text-align: left;
+    background-color: rgb(64, 74, 84);
+    color: whitesmoke;
+}
+
+.texto-user {
+    margin: 20px;
+    padding: 14px;
+    border-radius: 9px 9px 0px 9px;
+    text-align: right;
+    background-color: lightslategray;
+    color: yellow;
+}
