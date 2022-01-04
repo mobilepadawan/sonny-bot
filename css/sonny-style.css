@@ -9,7 +9,7 @@ body {
 
 .user-font {
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .sonny-font {
@@ -33,7 +33,7 @@ body {
 .texto-bot {
     margin: 20px;
     padding: 14px;
-    border-radius: 9px 9px 9px 0px;
+    border-radius: 20px 16px 16px 0px;
     text-align: left;
     background-color: rgb(64, 74, 84);
     color: whitesmoke;
@@ -42,7 +42,7 @@ body {
 .texto-user {
     margin: 20px;
     padding: 14px;
-    border-radius: 9px 9px 0px 9px;
+    border-radius: 16px 16px 0px 20px;
     text-align: right;
     background-color: lightslategray;
     color: yellow;
