@@ -2,6 +2,11 @@ const textUsuario = document.querySelector("#textUsuario")
 const btnEnviar = document.querySelector("#btnEnviar") 
 const mensajes = document.querySelector("#mensajes")
 
+function randomTime() {
+    const rt = Math.random() * 5000
+    return rt
+}
+
 function newUserMessage() {
     if (textUsuario.value.trim() > "") {
         let msg = document.createElement("div")
@@ -30,7 +35,7 @@ function newBotMessage(userMsg) {
         setTimeout(() => {
             botMsg.innerText = `Echo: ${userMsg.innerText}`            
             textUsuario.focus()
-        }, 3000);
+        }, randomTime());
     }
 }
 
