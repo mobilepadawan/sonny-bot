@@ -4,11 +4,14 @@
 header {
     margin-bottom: 5px !important;
     padding-bottom: 5px !important;
+    position: fixed;
+    background-color: black;
+    width: 100%;
 }
 
 main {
-    padding-top: 5px !important;
-    margin-top: 5px !important;
+    padding-top: 125px !important;
+    margin-top: auto;
 }
 
 body {
@@ -17,26 +20,28 @@ body {
     background-color: black;
 }
 
+input {
+    color: white;
+}
+
 footer {
-    position: relative;
-    margin: 0 auto;
+    position: sticky;
+    bottom: 0;
+    z-index: 999999;
     width: 100%;
-    float: left;
+    background-color: black;
 }
 
 .user-font {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
 .sonny-font {
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-style: italic;
 }
 
 .main-div {
-    height: 70%;
 	width: 100%;
 	border: 1px solid gray;
 	background: grey;
