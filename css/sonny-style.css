@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,900&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+h1 {
+    font-size: xx-large;
+    margin-left: 2%;
+}
+
 header {
     margin-bottom: 5px !important;
     padding-bottom: 5px !important;
@@ -25,7 +30,7 @@ input {
 }
 
 footer {
-    position: sticky;
+    position: fixed;
     bottom: 0;
     z-index: 999999;
     width: 100%;
@@ -34,22 +39,24 @@ footer {
 
 .user-font {
     font-weight: 400;
+    font-size: larger;
 }
 
-.sonny-font {
+.ns5-font {
     font-weight: 300;
     font-style: italic;
+    font-size: larger;
 }
 
 .main-div {
 	width: 100%;
-	border: 1px solid gray;
-	background: grey;
+    height: max-content;
 	overflow-y: scroll;
 }
 
 .mensajes {
-    height: auto;
+    height:calc();
+    width: 90%;
 }
 
 .texto-bot {
@@ -68,4 +75,8 @@ footer {
     text-align: right;
     background-color: lightslategray;
     color: yellow;
+}
+
+div.row {
+    width: 90%;
 }

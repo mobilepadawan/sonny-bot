@@ -2,11 +2,7 @@ const textUsuario = document.querySelector("#textUsuario")
 const btnEnviar = document.querySelector("#btnEnviar") 
 const mensajes = document.querySelector("#mensajes")
 
-mensajes.clientHeight = document.clientHeight - (document.querySelector("#divInferior").height + 200)
-
-
 function newUserMessage() {
-    //debugger
     if (textUsuario.value.trim() > "") {
         let msg = document.createElement("div")
         msg.classList.add("texto-user")
@@ -15,6 +11,26 @@ function newUserMessage() {
         msg.id = Date.now()
         mensajes.appendChild(msg)
         window.location.href = `#${msg.id}`
+        setTimeout(() => {
+            newBotMessage(msg)            
+        }, 1000);
+        textUsuario.value = ""
+    }
+}
+
+function newBotMessage(userMsg) {
+    if (userMsg.innerText.trim() != "") {
+        const botMsg = document.createElement("div")
+        botMsg.classList.add("texto-bot")
+        botMsg.classList.add("ns5-font")
+        botMsg.id = Date.now()
+        botMsg.innerHTML = `<img src="img/3dots.gif" width="30px">`
+        mensajes.appendChild(botMsg)
+        window.location.href = `#${botMsg.id}`
+        setTimeout(() => {
+            botMsg.innerText = `Echo: ${userMsg.innerText}`            
+            textUsuario.focus()
+        }, 3000);
     }
 }
 
