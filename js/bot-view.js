@@ -7,6 +7,10 @@ function randomTime() {
     return rt
 }
 
+function newUserMessage2() {
+    
+}
+
 function newUserMessage() {
     if (textUsuario.value.trim() > "") {
         let msg = document.createElement("div")
