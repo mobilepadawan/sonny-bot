@@ -7,8 +7,14 @@ function randomTime() {
     return rt
 }
 
+const templateMessageGlobe = ()=> {
+    return ``
+}
+
 function newUserMessage2() {
-    
+    if (textUsuario.value.trim() > "") {
+
+    }
 }
 
 function newUserMessage() {

@@ -77,6 +77,10 @@ footer {
     color: yellow;
 }
 
+.hora-text {
+    font-size: x-small;
+}
+
 div.row {
     width: 90%;
 }
