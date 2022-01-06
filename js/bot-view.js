@@ -8,7 +8,11 @@ function randomTime() {
 }
 
 const templateMessageGlobe = ()=> {
-    return ``
+    return `<li class="texto-user">
+                <img src="https://avatars.githubusercontent.com/u/48518539?v=4" alt="" class="circle left" width="40px">
+                <span class="user-font">Hola</span>
+                <p class="hora-text">19:58</p>
+            </li>`
 }
 
 function newUserMessage2() {

@@ -6,6 +6,10 @@ h1 {
     margin-left: 2%;
 }
 
+ul {
+    border-style: none !important;
+}
+
 header {
     margin-bottom: 5px !important;
     padding-bottom: 5px !important;
