@@ -26,7 +26,6 @@ const templateMessageBotGlobe = (botId, botMsj)=> {
 }
 
 function newUserMessage2() {
-    debugger
     if (textUsuario.value.trim() > "") {
         msgid = Date.now()
         msgText = textUsuario.value.trim()
