@@ -41,6 +41,10 @@ footer {
     background-color: black;
 }
 
+/* The code for fonts and paragraph's styles should (or could) be simplified
+Sorry, but I have no efforts with CSS.
+I'm just a coder who support its sthetics apps with CSS Frameworks */
+
 .user-font {
     font-weight: 400;
     font-size: larger;
