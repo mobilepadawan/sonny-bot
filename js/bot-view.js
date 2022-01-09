@@ -32,7 +32,7 @@ function newUserMessage2() {
         mensajes.innerHTML += templateMessageGlobe(msgid, msgText)
     }
     setTimeout(() => {
-        bid = Date.now()
+        bid = Date.now().toString()
         msgid = Date.now()
         mensajes.innerHTML += templateMessageBotGlobe(bid, msgText)            
     }, 1000);
