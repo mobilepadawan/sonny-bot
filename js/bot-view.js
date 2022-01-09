@@ -27,7 +27,7 @@ const templateMessageBotGlobe = (botId, botMsj)=> {
 
 function newUserMessage2() {
     if (textUsuario.value.trim() > "") {
-        msgid = Date.now()
+        msgid = Date.now().toString()
         msgText = textUsuario.value.trim()
         mensajes.innerHTML += templateMessageGlobe(msgid, msgText)
     }
