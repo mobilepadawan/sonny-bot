@@ -4,7 +4,7 @@ const mensajes = document.querySelector("#mensajes")
 
 function randomTime() {
     const rt = Math.random() * 5000
-    return rt
+    return parseInt(rt)
 }
 
 const templateMessageGlobe = (mid, mtxt)=> {
